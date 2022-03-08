@@ -24,3 +24,32 @@ index = 0
 while index < length:
   print("I am learning about", python_topics[index])
   index += 1
+
+
+
+
+
+#nested loops
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
+scoops_sold = 0 
+
+for location in sales_data:
+  print(location)
+  for element in location:
+    scoops_sold += element
+print(scoops_sold)
+
+
+
+numbers = [2, -1, 79, 33, -45]
+doubled = [num * 2 for num in numbers]
+print(doubled)
+
+
+grades = [90, 88, 62, 76, 74, 89, 48, 57]
+
+scaled_grades = [grade + 10 for grade in grades]
+print(scaled_grades)
+
+
